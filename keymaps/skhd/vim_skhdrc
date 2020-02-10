@@ -1,0 +1,9 @@
+cmd + shift - t [
+  "iTerm2" : skhd -k "shift + F1 - t"
+  *          ~
+]
+
+cmd + shift - b [ 
+  "iTerm2" : skhd -k "shift + F1 - b"
+  *          ~
+]
