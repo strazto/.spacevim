@@ -1,4 +1,6 @@
 function! rstudio#after() abort
+  set <M-->=^[-
+  let g:R_assign_map = '<M-->'
   " Build and install
   noremap <F5>b :call SpaceVim#plugins#runner#open('R CMD INSTALL --no-multiarch --with-keep.source .')<CR>
   " Run tests
