@@ -26,6 +26,10 @@
     
     bootstrap_after = "rstudio#after"
 
+[[layers]]
+name = "lang#r"
+repl_command = "R"
+
 # Enable autocomplete layer
 [[layers]]
 name = 'autocomplete'
