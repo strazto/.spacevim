@@ -44,3 +44,5 @@ default_height = 30
 [[layers]]
 name = 'unite'
 
+[[layers]]
+name = "tmux"
