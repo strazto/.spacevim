@@ -7,5 +7,15 @@ function! rstudio#after() abort
   " Run tests
   noremap <F5>t :call SpaceVim#plugins#runner#open('Rscript --no-save --no-restore -e devtools::test()')<CR>
   autocmd BufNewFile,BufRead *.mustache set filetype=r
+
+  let g:tagbar_type_r = {
+    \ 'ctagstype' : 'r',
+    \ 'kinds'     : [
+          \ 'f:Functions',
+          \ 'g:GlobalVariables',
+          \ 'v:FunctionVariables',
+      \ ]
+  \ }
+
 endfunction
 
