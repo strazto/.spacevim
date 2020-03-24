@@ -17,5 +17,7 @@ function! rstudio#after() abort
       \ ]
   \ }
 
+set clipboard=unnamedplus
+
 endfunction
 
