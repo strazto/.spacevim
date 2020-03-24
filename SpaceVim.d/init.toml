@@ -46,5 +46,4 @@ name = 'unite'
 
 [[layers]]
 name = "tmux"
-tmux_navigator_modifier = "alt"
 
