@@ -30,8 +30,8 @@ function! rstudio#before() abort
 
   let g:tmux_navigator_no_mappings = 1
 
-  nnoremap <silent><C-Left>  :<C-u>TmuxNavigateLeft<CR>
-  nnoremap <silent><C-Down>  :<C-u>TmuxNavigateDown<CR>
-  nnoremap <silent><C-Up>    :<C-u>TmuxNavigateUp<CR>
-  nnoremap <silent><C-Right> :<C-u>TmuxNavigateRight<CR>
+  nnoremap <silent><M-Left>  :<C-u>TmuxNavigateLeft<CR>
+  nnoremap <silent><M-Down>  :<C-u>TmuxNavigateDown<CR>
+  nnoremap <silent><M-Up>    :<C-u>TmuxNavigateUp<CR>
+  nnoremap <silent><M-Right> :<C-u>TmuxNavigateRight<CR>
 endfunction
