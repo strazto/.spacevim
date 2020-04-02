@@ -30,10 +30,10 @@ function! rstudio#before() abort
 
   let g:tmux_navigator_no_mappings = 1
 
-  nnoremap <C-Left>  :<C-U>TmuxNavigateLeft<CR>
-  nnoremap <C-Down>  :<C-U>TmuxNavigateDown<CR>
-  nnoremap <C-Up>    :<C-U>TmuxNavigateUp<CR>
-  nnoremap <C-Right> :<C-U>TmuxNavigateRight<CR>
+  nnoremap <silent> <C-Left>  :<C-U>TmuxNavigateLeft<CR>
+  nnoremap <silent> <C-Down>  :<C-U>TmuxNavigateDown<CR>
+  nnoremap <silent> <C-Up>    :<C-U>TmuxNavigateUp<CR>
+  nnoremap <silent> <C-Right> :<C-U>TmuxNavigateRight<CR>
   
   " Handle xTerm keymappings
   if &term =~ '^screen'
