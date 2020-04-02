@@ -21,6 +21,15 @@ function! rstudio#after() abort
   set clipboard=unnamedplus
 
   call SpaceVim#mapping#space#def('nnoremap', ['p', 'y'], 'call SpaceVim#util#CopyToClipboard(3)', 'copy-permalink-to-line', 1)
+  
+  " Tmux Navigator bindings
+
+  let g:tmux_navigator_no_mappings = 1
+
+  nnoremap <silent> <C-LEFT>  :TmuxNavigateLeft<CR>
+  nnoremap <silent> <C-DOWN>  :TmuxNavigateDown<CR>
+  nnoremap <silent> <C-UP>    :TmuxNavigateUp<CR>
+  nnoremap <silent> <C-RIGHT> :TmuxNavigateRight<CR>
 
 endfunction
 
