@@ -25,6 +25,7 @@
     enable_statusline_mode = false
     
     bootstrap_after = "rstudio#after"
+    bootstrap_before = "rstudio#before"
 
 [[layers]]
 name = "lang#r"
