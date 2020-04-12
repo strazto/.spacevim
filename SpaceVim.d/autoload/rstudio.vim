@@ -21,7 +21,7 @@ function! rstudio#after() abort
   set clipboard=unnamedplus
 
   call SpaceVim#mapping#space#def('nnoremap', ['p', 'y'], 'call SpaceVim#util#CopyToClipboard(3)', 'copy-permalink-to-line', 1)
-  
+  let g:neomake_c_clang_exe = "mpicc"
 
 endfunction
 
