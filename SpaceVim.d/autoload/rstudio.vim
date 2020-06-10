@@ -22,7 +22,7 @@ function! rstudio#after() abort
 
   call SpaceVim#mapping#space#def('nnoremap', ['p', 'y'], 'call SpaceVim#util#CopyToClipboard(3)', 'copy-permalink-to-line', 1)
   let g:neomake_c_clang_exe = "mpicc"
-
+  let g:markdown_syntax_conceal = 0
 endfunction
 
 function! rstudio#before() abort
