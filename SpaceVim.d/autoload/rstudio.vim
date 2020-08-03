@@ -17,7 +17,7 @@ function! rstudio#after() abort
 "      \ ]
 "  \ }
 
-  "let g:tagbar_ctags_bin = '/snap/bin/universal-ctags'
+  let g:tagbar_ctags_bin = '/snap/bin/universal-ctags'
   set clipboard=unnamedplus
 
   call SpaceVim#mapping#space#def('nnoremap', ['p', 'y'], 'call SpaceVim#util#CopyToClipboard(3)', 'copy-permalink-to-line', 1)
