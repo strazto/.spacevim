@@ -22,6 +22,10 @@ function! rstudio#after() abort
 
   call SpaceVim#mapping#space#def('nnoremap', ['p', 'y'], 'call SpaceVim#util#CopyToClipboard(3)', 'copy-permalink-to-line', 1)
   let g:neomake_c_clang_exe = "mpicc"
+  
+  "let g:airline_theme='jellybeans'
+  "let g:lightline = { 'colorscheme': 'jellybeans' }
+  
   let g:markdown_syntax_conceal = 0
 endfunction
 
