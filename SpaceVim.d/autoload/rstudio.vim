@@ -23,9 +23,14 @@ function! rstudio#after() abort
   call SpaceVim#mapping#space#def('nnoremap', ['p', 'y'], 'call SpaceVim#util#CopyToClipboard(3)', 'copy-permalink-to-line', 1)
   let g:neomake_c_clang_exe = "mpicc"
   
+  nnoremap <silent> <C-Left>  :<C-U>TmuxNavigateLeft<CR>
+  nnoremap <silent> <C-Down>  :<C-U>TmuxNavigateDown<CR>
+  nnoremap <silent> <C-Up>    :<C-U>TmuxNavigateUp<CR>
+  nnoremap <silent> <C-Right> :<C-U>TmuxNavigateRight<CR>
+  
   "let g:airline_theme='jellybeans'
   "let g:lightline = { 'colorscheme': 'jellybeans' }
-  
+
   let g:markdown_syntax_conceal = 0
 endfunction
 
@@ -34,10 +39,7 @@ function! rstudio#before() abort
 
   let g:tmux_navigator_no_mappings = 1
 
-  nnoremap <silent> <C-Left>  :<C-U>TmuxNavigateLeft<CR>
-  nnoremap <silent> <C-Down>  :<C-U>TmuxNavigateDown<CR>
-  nnoremap <silent> <C-Up>    :<C-U>TmuxNavigateUp<CR>
-  nnoremap <silent> <C-Right> :<C-U>TmuxNavigateRight<CR>
+  
   
   " Handle xTerm keymappings
   if &term =~ '^screen'
