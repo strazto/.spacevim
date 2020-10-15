@@ -21,8 +21,24 @@ function! rstudio#after() abort
   set clipboard=unnamedplus
 
   call SpaceVim#mapping#space#def('nnoremap', ['p', 'y'], 'call SpaceVim#util#CopyToClipboard(3)', 'copy-permalink-to-line', 1)
-  let g:neomake_c_clang_exe = "mpicc"
+ 
+  " THE FOLLOWING SNIPPET SHOWS HOW TO DEF A NEW LEADER PREFIXED KEY
+  "
+  "  xnoremap <Leader>y "+y
+  "  nnoremap <Leader>p "+p
+  "  let g:_spacevim_mappings.p = ['normal! "+p', 'paste after here']
+  "
+  " Todo: define leader prefix keys for the following: 
+  " leader followed by: 
+  "  - 0,
+  "    - Change to Tab 10
+  "  - shift+1 ... shift+9
+  "    - Change to Tab 11->19
+  "
   
+  
+  
+
   nnoremap <silent> <C-Left>  :<C-U>TmuxNavigateLeft<CR>
   nnoremap <silent> <C-Down>  :<C-U>TmuxNavigateDown<CR>
   nnoremap <silent> <C-Up>    :<C-U>TmuxNavigateUp<CR>
@@ -31,6 +47,7 @@ function! rstudio#after() abort
   "let g:airline_theme='jellybeans'
   "let g:lightline = { 'colorscheme': 'jellybeans' }
 
+  let g:neomake_c_clang_exe = "mpicc"
   let g:markdown_syntax_conceal = 0
 endfunction
 
