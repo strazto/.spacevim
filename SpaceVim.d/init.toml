@@ -28,6 +28,11 @@
     bootstrap_after = "rstudio#after"
     bootstrap_before = "rstudio#before"
 
+
+[[layers]]
+# Rainbow parentheses here
+name = "tools"
+
 [[layers]]
 name = "lang#r"
 repl_command = "R"
