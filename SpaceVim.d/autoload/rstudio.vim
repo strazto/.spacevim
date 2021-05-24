@@ -49,6 +49,8 @@ function! rstudio#after() abort
 
   let g:neomake_c_clang_exe = "mpicc"
   let g:markdown_syntax_conceal = 0
+
+  execute 'RainbowLoad'
 endfunction
 
 function! rstudio#before() abort
