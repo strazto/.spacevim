@@ -66,6 +66,9 @@ name = 'christoomey/vim-tmux-navigator'
 on_cmd = [ 'TmuxNavigateLeft', 'TmuxNavigateDown', 'TmuxNavigateUp','TmuxNavigateRight']
 merged = false
 
+[[custom_plugins]]
+name = 'ciaranm/securemodelines'
+merged = false
 
 [[custom_plugins]]
 name = 'NLKNguyen/papercolor-theme'
