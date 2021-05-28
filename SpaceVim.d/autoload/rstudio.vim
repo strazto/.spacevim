@@ -67,6 +67,8 @@ function! rstudio#before() abort
     execute "set <xDown>=\e[1;*B"
     execute "set <xRight>=\e[1;*C"
     execute "set <xLeft>=\e[1;*D"
-endif
-
+  endif
+  
+  " Markdown preview url show 
+  let g:mkdp_echo_preview_url = 1
 endfunction
