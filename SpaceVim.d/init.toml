@@ -62,6 +62,9 @@ name = "core"
   name = "VersionControl"
 
 [[layers]]
+  name = "git"
+
+[[layers]]
   name = "lang#markdown"
 
 [[custom_plugins]]
