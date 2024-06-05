@@ -32,32 +32,32 @@
 	name = "colorscheme"
 
 [[layers]]
-# Rainbow parentheses here
-name = "tools"
+  # Rainbow parentheses here
+	name = "tools"
 
 [[layers]]
-name = "lang#r"
-repl_command = "R"
+	name = "lang#r"
+	repl_command = "R"
 
 # Enable autocomplete layer
 [[layers]]
-name = 'autocomplete'
-auto-completion-return-key-behavior = "complete"
-auto-completion-tab-key-behavior = "smart"
+	name = 'autocomplete'
+	auto-completion-return-key-behavior = "complete"
+	auto-completion-tab-key-behavior = "smart"
 
 [[layers]]
-name = 'shell'
-default_position = 'top'
-default_height = 30
+	name = 'shell'
+	default_position = 'top'
+	default_height = 30
 
 [[layers]]
-name = 'unite'
+	name = 'unite'
 
 [[layers]]
-name = 'sudo'
+	name = 'sudo'
 
 [[layers]]
-name = "core"
+	name = "core"
 
 
 [[layers]]
@@ -74,24 +74,24 @@ name = "core"
   name = "lang#typescript"
 
 [[custom_plugins]]
-name = 'christoomey/vim-tmux-navigator'
-on_cmd = [ 'TmuxNavigateLeft', 'TmuxNavigateDown', 'TmuxNavigateUp','TmuxNavigateRight']
-merged = false
+	name = 'christoomey/vim-tmux-navigator'
+	on_cmd = [ 'TmuxNavigateLeft', 'TmuxNavigateDown', 'TmuxNavigateUp','TmuxNavigateRight']
+	merged = false
 
 [[custom_plugins]]
-name = 'ciaranm/securemodelines'
-merged = false
+	name = 'ciaranm/securemodelines'
+	merged = false
 
 [[custom_plugins]]
-name = 'NLKNguyen/papercolor-theme'
-merged = false
+	name = 'NLKNguyen/papercolor-theme'
+	merged = false
 
 [[custom_plugins]]
-name = 'vim-airline/vim-airline-themes'
-merged = false
+	name = 'vim-airline/vim-airline-themes'
+	merged = false
 
 
 [[custom_plugins]]
-name = 'frazrepo/vim-rainbow'
-merged = false
+	name = 'frazrepo/vim-rainbow'
+	merged = false
 
