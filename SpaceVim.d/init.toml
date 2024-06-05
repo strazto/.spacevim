@@ -65,6 +65,7 @@ name = "core"
 
 [[layers]]
   name = "git"
+  git_plugin = "fugitive"
 
 [[layers]]
   name = "lang#markdown"
