@@ -26,6 +26,7 @@
     
     bootstrap_after = "rstudio#after"
     bootstrap_before = "rstudio#before"
+    expand_tab = false
 
 [[layers]]
 	name = "colorscheme"
