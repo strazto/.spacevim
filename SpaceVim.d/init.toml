@@ -35,10 +35,6 @@
   # Rainbow parentheses here
 	name = "tools"
 
-[[layers]]
-	name = "lang#r"
-	repl_command = "R"
-
 # Enable autocomplete layer
 [[layers]]
 	name = 'autocomplete'
