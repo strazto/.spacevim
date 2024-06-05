@@ -68,6 +68,9 @@ name = "core"
 [[layers]]
   name = "lang#markdown"
 
+[[layers]]
+  name = "lang#typescript"
+
 [[custom_plugins]]
 name = 'christoomey/vim-tmux-navigator'
 on_cmd = [ 'TmuxNavigateLeft', 'TmuxNavigateDown', 'TmuxNavigateUp','TmuxNavigateRight']
