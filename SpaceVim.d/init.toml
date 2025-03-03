@@ -63,12 +63,6 @@
   name = "git"
   git_plugin = "fugitive"
 
-[[layers]]
-  name = "lang#markdown"
-
-[[layers]]
-  name = "lang#typescript"
-
 [[custom_plugins]]
 	name = 'christoomey/vim-tmux-navigator'
 	on_cmd = [ 'TmuxNavigateLeft', 'TmuxNavigateDown', 'TmuxNavigateUp','TmuxNavigateRight']
@@ -78,13 +72,13 @@
 	name = 'ciaranm/securemodelines'
 	merged = false
 
-[[custom_plugins]]
-	name = 'NLKNguyen/papercolor-theme'
-	merged = false
+# [[custom_plugins]]
+# 	name = 'NLKNguyen/papercolor-theme'
+# 	merged = false
 
-[[custom_plugins]]
-	name = 'vim-airline/vim-airline-themes'
-	merged = false
+# [[custom_plugins]]
+# 	name = 'vim-airline/vim-airline-themes'
+# 	merged = false
 
 
 [[custom_plugins]]
